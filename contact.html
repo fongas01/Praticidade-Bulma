@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio com Bulma - Contato</title>
+
+    <!--  CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <!--  USANDO O BULMA CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+    <!--  importando a fonte dos icones  -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="/index.html">
+                <img class="logo" src="/img/map-Africa.png" width="28" height="28">
+              </a>
+              <h1 class="navbar-item" href="/">FON'GAS - DEV </h1>
+            </div>
+       
+            <!-- COLOCAR active PARA ACIONAR O MENU HAMBURGER -->
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="/index.html">Início</a>
+                    <a class="navbar-item" href="/contact.html">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+  <!-- CONTAINER -->
+  <!-- LADO ESQUERDO - superior -->
+  <section class="container"> 
+    <div class="columns">
+      <div class="column is-3">
+        <div class="card">
+          <div class="card-image">
+              <figure class="image is-4by3">
+              <img src="/img/main2.jpg" alt="Placeholder image">
+            </figure>
+          </div>  
+       
+          <!-- LADO ESQUERDO - inferior -->
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Nando Fon'gas</p>
+                <span class="tag is-dark is-medium">Junior Developer</span>
+            </div>
+          </div>
+
+          <div class="content">
+          <p><i class="fa-solid fa fa-phone"></i> (21) 993817779</p>
+          <p><i class="fa-light fa fa-envelope"></i> nando.fongas@gmail.com</p>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <!-- LADO DIREIO -->
+  <div class="column is-9">
+    <div class="card">
+        <header class="card-header">
+            <p class="card-header-title">
+            Contato
+            </p>
+        </header>
+
+      <form class="formulario"> 
+        <div class="field"> 
+          <label class="label name">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Digite o seu nome">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="Informe o seu e-mail">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Coloque aqui a sua mensagem"></textarea>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Enviar</button>
+          </div>
+      </form>
+    </div>
+  </div>
+    
+</section>
+
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p><strong>CURRICULO feito com Bulma</strong></p>
+      &copy; Todos direitos reservados | Nando Fon'gas - 2023
+    </div>
+  </footer>
+</body>
+</html>
