@@ -10,3 +10,11 @@
  .name{
     padding-top: 0rem;
 }
+
+.field .control .button {
+    background-color: rgb(73, 173, 78);
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
